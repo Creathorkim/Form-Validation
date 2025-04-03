@@ -13,11 +13,11 @@ The form uses **Bootstrap classes** and **JavaScript Constraint Validation API**
 ---
 
 ##  Features
-✅ Live inline validation for all input fields  
-✅ Real-time feedback (green for valid, red for invalid)  
-✅ Password matching validation  
-✅ Fully responsive with Bootstrap  
-✅ Custom error messages for better user experience  
+Live inline validation for all input fields  
+Real-time feedback (green for valid, red for invalid)  
+Password matching validation  
+Fully responsive with Bootstrap  
+Custom error messages for better user experience  
 
 ---
 
