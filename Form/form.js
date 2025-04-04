@@ -157,14 +157,15 @@ form.addEventListener("submit", (e) => {
     isValid = false;
   }
 
-  if (!confirmPassword.validity.valid || confirmPassword.value !== password.value) {
+  if (
+    !confirmPassword.validity.valid ||
+    confirmPassword.value !== password.value
+  ) {
     showConfirmPasswordError();
     isValid = false;
   }
 
   if (!isValid) {
     e.preventDefault();
-  } else {
-    document.getElementById("success-message").classList.remove("d-none");
   }
 });
